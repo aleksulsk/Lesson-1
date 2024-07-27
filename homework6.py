@@ -3,7 +3,9 @@ print(my_dict)
 print(my_dict.get("Ivan"))
 print(my_dict.get("Alex"))
 my_dict.update({"Zhenya": 1985, "Kostya": 2005})
-my_dict.pop("Ivan")
+print(my_dict)
+a = my_dict.pop("Ivan")
+print(a)
 print(my_dict)
 
 my_set = {1, 2, 1, 2, "Hello", True, "Hello"}
